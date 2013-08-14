@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LinearLayout1" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="center">
+	<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+		android:text="你终于进入主页面了,这表示你密码输入正确了." android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"></TextView>
+		<TextView android:id="@+id/tvReset" android:layout_width="wrap_content"
+		android:text="其实你可以尝试一下重重置密码" android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal" android:background="@drawable/border"></TextView>
+
+</LinearLayout>
